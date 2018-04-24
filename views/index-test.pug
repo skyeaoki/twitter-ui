@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		title Twitter Client
+		meta(name="description", content="")
+		meta(name="author", content="")
+
+		// MOBILE META
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+
+		// FONTS
+		link(href="https://fonts.googleapis.com/css?family=Work+Sans:400,600", rel="stylesheet", type="text/css")
+
+		// CSS
+		link(rel="stylesheet", href="/css/global.css")
+
+body
+		p #{timeline.t1.tweet}
+		p #{timeline.t4.tweet}
+		p #{following.f5.username}
+		p #{directMessage.d1.senderName}
+		p #{directMessage.d5.text}
+		p #{directMessage.d3.profilePic}
