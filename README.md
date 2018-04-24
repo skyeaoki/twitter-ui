@@ -1,7 +1,7 @@
 # twitter-ui
 Displays a user's most recent tweets, friends, and messages
 
-To use with your twitter account please include a config.js file with this info:
+To use with your twitter account please include a config.js file in the root directory with this info:
 
   const authentication = { consumer_key: '',
   consumer_secret: '',
